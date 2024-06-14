@@ -6,6 +6,7 @@ services:
       - POSTGRES_PASSWORD=secret
     volumes:
       - ./clubdata.sql:/docker-entrypoint-initdb.d/clubdata.sql
+      - ./solutions:/solutions
       - postgres_data:/var/lib/postgresql/data
 volumes:
   postgres_data:
