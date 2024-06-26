@@ -11,5 +11,5 @@ $ docker compose up
 ```bash
 # The database must be running to run a query
 $ cd pgexercises
-$ docker compose exec db  bash -c "psql -U postgres -d exercises -f solutions/01-basic/01-retrieve-everything-from-a-table.sql"
+$ docker compose exec db bash -c "psql -U postgres -d exercises -f solutions/01-basic/01-retrieve-everything-from-a-table.sql"
 ```
